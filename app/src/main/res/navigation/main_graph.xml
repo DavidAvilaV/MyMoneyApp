@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_graph"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/configFragment"
+        android:name="com.example.mymoneyapp.ui.config.configFragment"
+        android:label="fragment_config"
+        tools:layout="@layout/fragment_config" />
+    <fragment
+        android:id="@+id/gastosFragment"
+        android:name="com.example.mymoneyapp.ui.gastos.GastosFragment"
+        android:label="fragment_gastos"
+        tools:layout="@layout/fragment_gastos" />
+    <fragment
+        android:id="@+id/historicoFragment"
+        android:name="com.example.mymoneyapp.ui.historico.historicoFragment"
+        android:label="fragment_historico"
+        tools:layout="@layout/fragment_historico" />
+    <fragment
+        android:id="@+id/ingresosFragment"
+        android:name="com.example.mymoneyapp.ui.ingresos.IngresosFragment"
+        android:label="fragment_ingresos"
+        tools:layout="@layout/fragment_ingresos" />
+    <fragment
+        android:id="@+id/menuPrincipalFragment"
+        android:name="com.example.mymoneyapp.ui.menuPrincipal.menuPrincipalFragment"
+        android:label="fragment_menu_principal"
+        tools:layout="@layout/fragment_menu_principal" />
+    <fragment
+        android:id="@+id/patrimonioFragment"
+        android:name="com.example.mymoneyapp.ui.patrimonio.patrimonioFragment"
+        android:label="fragment_patrimonio"
+        tools:layout="@layout/fragment_patrimonio" />
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.mymoneyapp.ui.login.loginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" />
+</navigation>

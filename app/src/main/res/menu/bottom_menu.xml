@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/gastosFragment"
+        android:title="@string/gastos"
+        android:icon="@drawable/ic_gastos"
+        />
+    <item
+        android:id="@+id/ingresosFragment"
+        android:title="@string/ingreso"
+        android:icon="@drawable/ic_ingresos"
+        />
+    <item
+        android:id="@+id/patrimonioFragment"
+        android:title="@string/patrimonio"
+        android:icon="@drawable/ic_patrimonio"
+        />
+    <item
+        android:id="@+id/historicoFragment"
+        android:title="@string/historico"
+        android:icon="@drawable/ic_historico"
+        />
+
+
+</menu>
